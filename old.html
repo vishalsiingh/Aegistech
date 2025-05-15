@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AEGISTECH INNOVATIONS - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">AEGISTECH INNOVATIONS</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+      <!-- <div class="collapse navbar-collapse" id="navbarNav"></div> -->
+      <ul class="navbar-nav fs-5">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#careers">Careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-section">Contact</a>
+        </li>
+      </ul>
+
+      
+  </div>
+</nav>
+
+
+
+
+
+
+
+<!-- Hero Section -->
+<section class="hero-section position-relative">
+  <div class="container position-relative" style="z-index: 5;">
+    <h1>Innovating Your Digital Future</h1>
+    <p>Building cutting-edge software solutions to empower your business.</p>
+    <a href="#services" class="btn btn-outline-light btn-lg">Our Services</a>
+    <!-- btn btn-light btn-lg me-3 -->
+    <a href="#contact-section" class="btn btn-outline-light btn-lg">Contact Us</a>
+  </div>
+  <div class="shape shape1"></div>
+  <div class="shape shape2"></div>
+  <div class="shape shape3"></div>
+
+  <!-- Floating images in hero -->
+  <img src="pic1.jpg" alt="Code snippet" class="floating-img floating-img1" />
+  <img src="https://source.unsplash.com/120x120/?mobile" alt="Mobile app" class="floating-img floating-img2" />
+  <img src="https://source.unsplash.com/90x90/?design" alt="Design tools" class="floating-img floating-img3" />
+</section>
+
+<!-- Repeat other page sections here: About Us, Services, Portfolio, Blog, Careers, Contact, Newsletter, Footer as per previous code ... -->
+
+<!-- For brevity, these remain unchanged -->
+<!-- About Us Section -->
+<section id="about-us" aria-label="About Us">
+    <h2>About Us</h2>
+    <div class="content">
+      <p>
+        At AEGISTECH INNOVATIONS, we are dedicated to pushing the boundaries of software innovation. Our mission is to empower businesses by delivering customized, next-generation digital solutions that streamline operations and enhance user experiences. Guided by our core values of integrity, creativity, and quality, our team crafts reliable and scalable software for clients worldwide.
+      </p>
+      <p>
+        Founded by industry veterans with passion and vision, we have grown into a diverse team of engineers, designers, and strategists committed to excellence and client satisfaction. Let us transform your ideas into impactful digital realities.
+      </p>
+    </div>
+    <div class="founders" aria-label="Company founders and team">
+      <div class="founder" tabindex="0">
+        <img src="pic1.jpg" alt="Portrait of Vishal Kashyap, Founder & CEO"/>
+        <h5>Vishal Kashyap</h5>
+        <p>Founder & CEO</p>
+      </div>
+      <div class="founder" tabindex="0">
+        <img src="pic1.jpg" alt="Portrait of Priya Sharma, CTO"/>
+        <h5>Vishal</h5>
+        <p>Chief Technology Officer</p>
+      </div>
+      <div class="founder" tabindex="0">
+        <img src="pic1.jpg" alt="Portrait of Arjun Patel, Head of Design"/>
+        <h5>Vishal Singh</h5>
+        <p>Head of Design</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Summary -->
+<section id="services" class="py-5 bg-white">
+    <div class="container text-center">
+      <h2>Our Core Services</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-md-3">
+          <div class="service-item" tabindex="0" aria-label="Web Development service">
+            <div class="service-icon" aria-hidden="true">💻</div>
+            <h5>Web Development</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="service-item" tabindex="0" aria-label="Mobile Apps service">
+            <div class="service-icon" aria-hidden="true">📱</div>
+            <h5>Mobile Apps</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="service-item" tabindex="0" aria-label="UI/UX Design service">
+            <div class="service-icon" aria-hidden="true">🎨</div>
+            <h5>UI/UX Design</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="service-item" tabindex="0" aria-label="AI and Machine Learning service">
+            <div class="service-icon" aria-hidden="true">🤖</div>
+            <h5>AI &amp; Machine Learning</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Recent Projects -->
+<section id="portfolio" class="py-5" style="background: #f2f2f8;">
+    <div class="container">
+      <h2 class="text-center mb-5">Recent Projects &amp; Clients</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card project-card shadow-sm" tabindex="0" aria-label="Project Alpha: E-commerce platform with React, Node.js, MongoDB">
+            <img src="https://images.unsplash.com/photo-1649576870285-efa53103defa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Project Alpha Screenshot"/>
+            <div class="card-body">
+              <h5 class="card-title">Project Alpha</h5>
+              <p class="card-text">E-commerce platform with real-time analytics. Tech: React, Node.js, MongoDB.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card project-card shadow-sm" tabindex="0" aria-label="Project Beta: Mobile healthcare app with Flutter and Firebase">
+            <img src="https://images.unsplash.com/photo-1702479744048-0351261e1ac1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHByb2plY3QlMjBiZXRhfGVufDB8fDB8fHww" class="card-img-top" alt="Project Beta Screenshot"/>
+            <div class="card-body">
+              <h5 class="card-title">Project Beta</h5>
+              <p class="card-text">Cross-platform mobile app for healthcare. Tech: Flutter, Firebase.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card project-card shadow-sm" tabindex="0" aria-label="Project Gamma: AI recommendation engine with Python and TensorFlow">
+            <img src="https://images.unsplash.com/photo-1561688108-c32cb16027ca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fHByb2plY3QlMjBnYW1tYXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Project Gamma Screenshot"/>
+            <div class="card-body">
+              <h5 class="card-title">Project Gamma</h5>
+              <p class="card-text">AI-based recommendation engine. Tech: Python, TensorFlow.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog section -->
+<section id="blog" aria-label="Blog posts">
+    <div class="container">
+      <h2>Latest from Our Blog</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <article class="blog-post animated" tabindex="0" aria-labelledby="blog1-title">
+            <h5 id="blog1-title">How AI Is Changing Business Today</h5>
+            <p>Explore the impact of artificial intelligence on various industries and how it is shaping the future.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="blog-post animated" tabindex="0" aria-labelledby="blog2-title">
+            <h5 id="blog2-title">Top 5 Trends in Mobile App Development</h5>
+            <p>A look at the latest trends shaping the world of mobile apps and what they mean for your business.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="blog-post animated" tabindex="0" aria-labelledby="blog3-title">
+            <h5 id="blog3-title">Designing for the User: UI/UX Best Practices</h5>
+            <p>Learn essential UI/UX design principles that create intuitive and engaging user experiences.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Careers Section -->
+<section id="careers" aria-label="Careers and internship opportunities">
+    <h2>Careers & Internships</h2>
+    <div id="job-listings" role="list">
+      <div class="job-card" tabindex="0" role="listitem" aria-label="Software Developer Internship">
+        <h5>Software Developer Internship</h5>
+        <p>Duration: 6 months | Location: Remote/Hybrid | Stipend: Competitive</p>
+        <p>Work on real projects using latest technologies including React, Node.js, and AI.</p>
+      </div>
+      <div class="job-card" tabindex="0" role="listitem" aria-label="Junior Frontend Developer">
+        <h5>Junior Frontend Developer</h5>
+        <p>Full-time | Location: Bangalore | Salary: Competitive</p>
+        <p>Build and maintain client-facing web apps with modern UI/UX frameworks.</p>
+      </div>
+    </div>
+    <form id="application-form" aria-label="Submit application form" enctype="multipart/form-data" novalidate>
+      <h3>Submit Your Application</h3>
+      <label for="applicant-name">Full Name *</label>
+      <input type="text" id="applicant-name" name="name" placeholder="Your full name" required aria-required="true" autocomplete="name" />
+      <label for="applicant-email">Email Address *</label>
+      <input type="email" id="applicant-email" name="email" placeholder="example@domain.com" required aria-required="true" autocomplete="email" />
+      <label for="applicant-resume">Upload Resume (PDF, DOC, DOCX) *</label>
+      <input type="file" id="applicant-resume" name="resume" accept=".pdf,.doc,.docx" required aria-required="true" />
+      <button type="submit">Submit Application</button>
+      <p id="application-status" role="alert" aria-live="polite"></p>
+    </form>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact-section">
+    <div class="contact-wrapper">
+      <!-- Left: Map and Contact Info -->
+      <div class="left-column">
+        <!-- Map -->
+        <div id="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230661.04485025254!2d81.63676959124594!3d25.402171893638155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398534c9b20bd49f%3A0xa2237856ad4041a!2sPrayagraj%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1746765803970!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div id="map-address">
+            85/47, CY Chintamani Rd, Darbhanga Colony, George Town, Prayagraj, UP 211002
+          </div>
+        </div>
+  
+        <!-- Contact Info BELOW Map -->
+        <div class="contact-details">
+          <p>📧 Email: <a href="mailto:info@aegistech.com">info@aegistech.com</a> | 📞 Phone: <a href="tel:+919876543210">+91 9876543210</a></p>
+          <p>🐦 <a href="#">Twitter</a> | 💼 <a href="#">LinkedIn</a> | 📘 <a href="#">Facebook</a></p>
+        </div>
+      </div>
+  
+      <!-- Right: Contact Form -->
+      <form id="contact-form" aria-label="Contact form" novalidate>
+        <label for="contact-name">Full Name *</label>
+        <input type="text" id="contact-name" name="name" placeholder="Your full name" required aria-required="true" autocomplete="name" />
+    
+        <label for="contact-email">Email Address *</label>
+        <input type="email" id="contact-email" name="email" placeholder="example@domain.com" required aria-required="true" autocomplete="email" />
+    
+        <label for="contact-message">Message *</label>
+        <textarea id="contact-message" name="message" rows="5" placeholder="Your message" required aria-required="true"></textarea>
+    
+        <button type="submit">Send Message</button>
+        <p id="contact-form-status" role="alert" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+  
+  
+  
+  <!-- Newsletter subscription -->
+  <section id="newsletter" aria-label="Newsletter subscription" style="padding: 70px 15px; background: var(--card-bg); transition: background-color 0.5s ease; position: relative; z-index: 5;">
+    <div class="container text-center">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay updated with the latest news, projects, and insights from AEGISTECH INNOVATIONS.</p>
+      <form id="newsletter-form" aria-live="polite" aria-atomic="true" novalidate>
+        <input 
+          type="email" 
+          id="newsletter-email" 
+          aria-label="Email address" 
+          placeholder="Enter your email" 
+          required
+          autocomplete="email"
+        />
+        <button type="submit" aria-label="Subscribe to newsletter">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Footer CTA -->
+  <footer class="bg-dark text-white py-4 text-center">
+    <div class="container">
+      <p class="mb-2 fs-5">Ready to transform your business?</p>
+      <a href="#contact-section" class="btn btn-outline-light btn-lg">Get in Touch</a>
+    </div>
+  </footer>
+
+  <!-- WhatsApp live chat button -->
+<a href="https://wa.me/916200457923" id="whatsapp-chat" target="_blank" title="Chat with us on WhatsApp" aria-label="Chat with us on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M20.52 3.48A11.8 11.8 0 0012.03.04C6.1.04 1.54 4.6 1.54 10.54c0 1.86.56 3.66 1.62 5.21L0 24l8.76-2.25c1.47.82 3.12 1.27 4.77 1.27 5.93 0 10.49-4.56 10.49-10.5 0-2.79-1.08-5.41-3.5-7.04zm-6.54 15.46c-1.46 0-2.9-.39-4.14-1.15l-.3-.18-5.17 1.32 1.38-5.02-.2-.33a7.642 7.642 0 01-1.15-4.14c0-4.24 3.45-7.7 7.7-7.7s7.7 3.46 7.7 7.7c0 4.24-3.43 7.7-7.54 7.7zm3.95-4.33c-.2-.1-1.17-.58-1.35-.65-.18-.07-.31-.1-.45.1-.14.2-.54.65-.67.78-.13.14-.26.15-.46.05a6.4 6.4 0 01-1.89-1.15 7.02 7.02 0 01-1.3-1.62c-.14-.24 0-.37.1-.48.1-.1.2-.26.3-.39.1-.13.13-.24.2-.4.07-.13.03-.3-.02-.44-.05-.15-.45-1.1-.62-1.52-.16-.4-.33-.34-.45-.34h-.38c-.13 0-.34.05-.52.24-.18.18-.7.68-.7 1.65 0 .97.72 1.92.82 2.06.1.13 1.41 2.2 3.42 3.07.48.21.85.34 1.14.44.48.16.92.14 1.26.08.38-.07 1.17-.48 1.33-.95.16-.49.16-.91.11-1.01-.05-.1-.18-.16-.38-.27z"></path>
+    </svg>
+  </a>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const navbarCollapse = document.getElementById('navbarNav');
+    const navLinks = document.querySelectorAll('#navbarNav .nav-link');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        // Only collapse if shown (mobile view)
+        if (navbarCollapse.classList.contains('show')) {
+          const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+          if (bsCollapse) bsCollapse.hide();
+        }
+      });
+    });
+  });
+</script>
+
+
+<script>
+ 
+  // Newsletter Subscription
+  const newsletterForm = document.getElementById('newsletter-form');
+  newsletterForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const emailInput = document.getElementById('newsletter-email');
+    const email = emailInput.value.trim();
+    if (!email || !validateEmail(email)) {
+      alert('Please enter a valid email address.');
+      emailInput.focus();
+      return;
+    }
+    alert(`Thank you for subscribing with ${email}!`);
+    emailInput.value = '';
+  });
+
+  // Validate Email Helper
+  function validateEmail(email) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  }
+
+  // Application form submission
+  const applicationForm = document.getElementById('application-form');
+  const applicationStatus = document.getElementById('application-status');
+
+  applicationForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name = applicationForm['name'].value.trim();
+    const email = applicationForm['email'].value.trim();
+    const resume = applicationForm['resume'].files[0];
+
+    if (!name || !email || !resume) {
+      applicationStatus.style.color = 'red';
+      applicationStatus.textContent = 'Please fill in all fields and upload your resume.';
+      return;
+    }
+    if (!validateEmail(email)) {
+      applicationStatus.style.color = 'red';
+      applicationStatus.textContent = 'Please enter a valid email address.';
+      return;
+    }
+
+    const allowedTypes = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+    if (!allowedTypes.includes(resume.type)) {
+      applicationStatus.style.color = 'red';
+      applicationStatus.textContent = 'Invalid resume format. Please upload PDF, DOC, or DOCX.';
+      return;
+    }
+
+    applicationStatus.style.color = 'var(--primary-color)';
+    applicationStatus.textContent = 'Uploading your application...';
+
+    setTimeout(() => {
+      applicationStatus.textContent = 'Application submitted successfully! Thank you.';
+      applicationForm.reset();
+    }, 2000);
+  });
+
+  
+
+  // Animate blog posts on scroll
+  const blogPosts = document.querySelectorAll('#blog .blog-post');
+  const observerOptions = { threshold: 0.5 };
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting) {
+        entry.target.classList.add('animated-visible');
+      }
+    });
+  }, observerOptions);
+  blogPosts.forEach(post => observer.observe(post));
+</script>
+<!-- EmailJS SDK -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init("E91q4oZUyLONVxBxs"); // Replace with your actual public key
+  })();
+
+  const contactForm = document.getElementById('contact-form');
+  const contactStatus = document.getElementById('contact-form-status');
+
+  contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    contactStatus.style.color = 'var(--primary-color)';
+    contactStatus.textContent = 'Sending your message...';
+
+    emailjs.sendForm("service_1i5cqu1", "template_l79jorm", this)
+      .then(() => {
+        contactStatus.style.color = 'green';
+        contactStatus.textContent = 'Thank you! Your message was sent successfully.';
+        contactForm.reset();
+      }, (error) => {
+        contactStatus.style.color = 'red';
+        contactStatus.textContent = 'Failed to send message. Please try again later.';
+        console.error('EmailJS error:', error);
+      });
+  });
+</script>
+
+<!-- Animation Styles -->
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
